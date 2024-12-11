@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #4f46e5;
+  --secondary-color: #1e293b;
+  --light-color: #f1f5f9;
+  --dark-color: #111827;
+}
+
+body {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+body.dark-mode {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.header {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.chat-box {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .chat-box {
+  background-color: var(--dark-color);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.message.user {
+  background-color: #34d399;
+  color: var(--dark-color);
+}
+
+.message.assistant {
+  background-color: #93c5fd;
+  color: var(--dark-color);
+}
+
+body.dark-mode .message.user {
+  background-color: #065f46;
+  color: var(--light-color);
+}
+
+body.dark-mode .message.assistant {
+  background-color: #1e3a8a;
+  color: var(--light-color);
+}
+
