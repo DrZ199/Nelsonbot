@@ -1,0 +1,44 @@
+.slide-menu {
+  position: fixed;
+  bottom: -100%; /* Hidden by default */
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #f8f9fa;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1001;
+}
+
+.slide-menu.open {
+  transform: translateY(-100%); /* Slide up when open */
+}
+
+.menu-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.slide-menu ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.slide-menu ul li {
+  padding: 10px 0;
+}
+
+.slide-menu ul li a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
