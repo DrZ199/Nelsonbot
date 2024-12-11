@@ -25,4 +25,3 @@ const useGardio = () => {
 };
 
 export default useGardio;
-
