@@ -12,4 +12,3 @@ function ThemeToggle({ darkMode, toggleDarkMode }) {
 }
 
 export default ThemeToggle;
-
