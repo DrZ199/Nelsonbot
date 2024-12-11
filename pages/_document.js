@@ -54,4 +54,3 @@ MyDocument.getInitialProps = async (ctx) => {
     emotionStyleTags,
   };
 };
-
