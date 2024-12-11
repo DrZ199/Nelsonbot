@@ -65,4 +65,3 @@ const HamburgerMenu = ({ isOpen, onClose, toggleDarkMode, darkMode }) => {
 };
 
 export default HamburgerMenu;
-
