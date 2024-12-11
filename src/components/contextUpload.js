@@ -30,4 +30,3 @@ const ContextUpload = ({ onContextSet }) => {
 };
 
 export default ContextUpload;
-
