@@ -21,4 +21,3 @@ export async function sendMessage(message) {
     throw error;
   }
 }
-

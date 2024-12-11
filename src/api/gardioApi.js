@@ -21,4 +21,3 @@ export const sendMessageToSpace = async (message, context = '') => {
         throw error;
     }
 };
-
